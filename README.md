@@ -1,4 +1,4 @@
-# Dyslexia Detection
+# DyslexiaAid
 ## Running the webapp
 
 The app is developed in Python with frontend Developed in streamlit. To run the app in a vertual environment install the packages in ```requirements.txt``` using the command
@@ -27,15 +27,7 @@ The ```data.csv``` has the extracted features of all the images in the above dir
 <li>Presence of dyslexia</li>
 </ul>
 
-
 the ```school_symptoms.txt``` has the symptoms of the disorder documented.
-
-### images:
-This folder contains the output images from visualization of the extracted features from the images which explains the accuracy of the classifier on the data.
-
-![Alt text](images/percentage_of_corrections.jpg)
-![Alt text](images/percentage_of_phonetic_accuraccy.jpg)
-![Alt text](images/spelling_accuracy.jpg)
 
 ### model_training:
 This folder contains the training and evaluation of various machine learning models on the extracted data.
